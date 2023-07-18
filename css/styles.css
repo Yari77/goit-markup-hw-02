@@ -253,19 +253,34 @@ border-radius: 4px;
 background-color: var(--ocean-cl);
 }
 
-/*!-----------------------PROJECT-----------------------*/
+/*?-----------------------TABS-----------------------*/
 
-.project-subtitle {
+.tabs-list {
+list-style: none;
+}
+
+.tabs-link {
+text-decoration: none;
+}
+
+.tabs-img {
+width: 360px;
+height: 300px;
+flex-shrink: 0;
+}
+
+.tabs-title {
 font-size: 20px;
 font-weight: 500;
-line-height: 1.20;
+line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--main-cl);
-
 }
-.project-text {
+
+.tabs-text {
 font-size: 16px;
-line-height: 1.50;
-letter-spacing: 0.02em;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
 color: var(--slate-cl);
 }
