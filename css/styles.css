@@ -21,20 +21,6 @@ text-decoration: none;
 list-style-type: none;
 }
 
-.visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-border: 0;
-padding: 0;
-
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
-}
-
 /*!-----------------------HEADER-----------------------*/
 
 .header-logo {
@@ -200,7 +186,6 @@ color: var(--slate-cl);
 font-family: Raleway, sans-serif;
 color: var(--iris-cl);
 font-size: 18px;
-font-style: normal;
 font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -209,7 +194,14 @@ text-decoration: none;
 }
 
 .footer-logo-color {
-    color: var(--cloud-cl);
+font-family: Raleway, sans-serif;
+color: var(--cloud-cl);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
 }
 
 .footer-text {
@@ -238,18 +230,11 @@ line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--iris-cl);
 cursor: pointer;
-display: flex;
-padding: 12px 24px;
-align-items: flex-start;
 background-color: var(--cloud-cl);
 }
 
 .portfolio-category-btn:hover, .portfolio-category-btn:focus {
 color: var(--white-cl);
-display: flex;
-padding: 12px 24px;
-align-items: flex-start;
-border-radius: 4px;
 background-color: var(--ocean-cl);
 }
 
