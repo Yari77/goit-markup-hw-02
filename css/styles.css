@@ -39,7 +39,7 @@ overflow: hidden;
 
 .header-logo {
 font-family: Raleway, sans-serif;
-color: var(--main-cl);
+color: var(--iris-cl);
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
@@ -50,7 +50,7 @@ line-height: 1.17;
 }
 
 .header-logo-color {
-color: var(--iris-cl);
+color: var(--main-cl);
 }
 
 .header-menu-link {
@@ -159,6 +159,10 @@ color: var(--main-cl);
     background-color: var(--white-cl);
 }
 
+.team-item {
+    background-color: var(--white-cl);
+}
+
 .team-title {
 font-size: 36px;
 font-weight: 700;
@@ -194,17 +198,18 @@ color: var(--slate-cl);
 
 .footer-logo {
 font-family: Raleway, sans-serif;
-color: var(--cloud-cl);
+color: var(--iris-cl);
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
 }
 
 .footer-logo-color {
-    color: var(--iris-cl);
+    color: var(--cloud-cl);
 }
 
 .footer-text {
