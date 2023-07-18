@@ -10,6 +10,7 @@
 body {
 font-family: 'Roboto', sans-serif;
 background-color: var(--white-cl);
+color: var(--slate-cl);
 }
 
 .link {
@@ -37,7 +38,7 @@ overflow: hidden;
 /*!-----------------------HEADER-----------------------*/
 
 .header-logo {
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 color: var(--main-cl);
 font-size: 18px;
 font-style: normal;
@@ -45,6 +46,7 @@ font-weight: 800;
 line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+line-height: 1.17;
 }
 
 .header-logo-color {
@@ -63,6 +65,10 @@ color: var(--main-cl);
 color: var(--ocean-cl);
 }
 
+.header-address-contact {
+font-style: normal;
+}
+
 .header-address-link {
 font-size: 16px;
 line-height: 1.50;
@@ -78,6 +84,9 @@ color: var(--ocean-cl);
 
 .hero {
 background-color: var(--main-cl);
+width: 1440px;
+height: 600px;
+flex-shrink: 0;
 }
 
 .hero-title {
@@ -87,16 +96,28 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--white-cl);
+display: flex;
+width: 496px;
+flex-direction: column;
+flex-shrink: 0;
 }
 
 .hero-btn {
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--white-cl);
 cursor: pointer;
+border-radius: 4px;
+background: var(--iris);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+background-color: var(--iris-cl);
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--ocean-cl);
 }
 
 /*?-----------------------ADVANTAGES-----------------------*/
@@ -129,6 +150,14 @@ color: var(--main-cl);
 }
 
 /*!-----------------------TEAM-----------------------*/
+
+.team {
+    background-color: var(--cloud-cl);
+}
+
+.team-list {
+    background-color: var(--white-cl);
+}
 
 .team-title {
 font-size: 36px;
@@ -164,7 +193,7 @@ color: var(--slate-cl);
 }
 
 .footer-logo {
-font-family: Raleway;
+font-family: Raleway, sans-serif;
 color: var(--cloud-cl);
 font-size: 18px;
 font-style: normal;
@@ -188,18 +217,35 @@ color: var(--cloud-cl);
 
 /**-----------------------PORTFOLIO-CATEGORY-----------------------*/
 
+.portfolio-bg {
+color: var(--slate-cl);
+}
+
+.portfolio-category-list {
+list-style: none;
+}
+
 .portfolio-category-btn {
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--iris-cl);
 cursor: pointer;
+display: flex;
+padding: 12px 24px;
+align-items: flex-start;
+background-color: var(--cloud-cl);
 }
 
 .portfolio-category-btn:hover, .portfolio-category-btn:focus {
-    color: var(--white-cl);
+color: var(--white-cl);
+display: flex;
+padding: 12px 24px;
+align-items: flex-start;
+border-radius: 4px;
+background-color: var(--ocean-cl);
 }
 
 /*!-----------------------PROJECT-----------------------*/
