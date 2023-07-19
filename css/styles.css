@@ -168,11 +168,11 @@ color: var(--slate-cl);
 
 /*?-----------------------FOOTER-----------------------*/
 
-.footer-background {
+.footer-item {
     background-color: var(--main-cl);
 }
 
-.footer-logo {
+.logo-link {
 font-family: Raleway, sans-serif;
 color: var(--iris-cl);
 font-size: 18px;
@@ -183,7 +183,7 @@ text-transform: uppercase;
 text-decoration: none;
 }
 
-.footer-logo-color {
+.footer-logo {
 font-family: Raleway, sans-serif;
 color: var(--cloud-cl);
 font-size: 18px;
