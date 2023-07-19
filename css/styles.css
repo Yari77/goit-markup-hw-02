@@ -50,9 +50,6 @@ color: var(--main-cl);
 color: var(--ocean-cl);
 }
 
-.header-address-contact {
-font-style: normal;
-}
 
 .header-address-link {
 font-size: 16px;
@@ -73,7 +70,6 @@ background-color: var(--main-cl);
 
 .hero-title {
 font-size: 56px;
-font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
@@ -87,7 +83,6 @@ font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--white-cl);
-cursor: pointer;
 background: var(--iris);
 background-color: var(--iris-cl);
 }
@@ -117,7 +112,6 @@ color: var(--slate-cl);
 
 .description-subtitle {
 font-size: 36px;
-font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -141,7 +135,6 @@ color: var(--main-cl);
 
 .team-title {
 font-size: 36px;
-font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -219,7 +212,6 @@ font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--iris-cl);
-cursor: pointer;
 background-color: var(--cloud-cl);
 }
 
@@ -249,7 +241,6 @@ color: var(--main-cl);
 
 .tabs-text {
 font-size: 16px;
-font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.32px;
 color: var(--slate-cl);
