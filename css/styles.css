@@ -50,6 +50,9 @@ color: var(--main-cl);
 color: var(--ocean-cl);
 }
 
+.header-address-contact {
+font-style: normal;
+}
 
 .header-address-link {
 font-size: 16px;
@@ -83,6 +86,7 @@ font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--white-cl);
+cursor: pointer;
 background: var(--iris);
 background-color: var(--iris-cl);
 }
@@ -212,6 +216,7 @@ font-weight: 500;
 line-height: 1.50;
 letter-spacing: 0.04em;
 color: var(--iris-cl);
+cursor: pointer;
 background-color: var(--cloud-cl);
 }
 
